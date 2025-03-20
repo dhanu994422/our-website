@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our website</title>
+    <style>
+        .Bag
+        {
+            width:350px;
+            border:2px black solid;
+            border-radius: 30px;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            transition:all 0.5s ease;
+
+        }
+        .Bag:hover
+        {
+            transform: scale(1.1);
+            background-color: darkcyan;
+            border:black 3px solid;
+            color:white;
+
+         }
+        .Car
+        {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .Bag img
+        {
+            width:300px;
+            height:350px;
+            border:2px black solid;
+            border-radius: 30px;
+        }
+        header
+        {
+            background-color: darkmagenta;
+            font-size: 60px;
+            color:white;
+            text-align: center;
+        }
+        footer
+        {
+            background-color: darkmagenta;
+            font-size: 60px;
+            color:white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Namba Website
+    </header>
+    <br>
+   <div class="Car">
+    <div class="Bag">
+        <h1>Hoodie</h1>
+        <img src="mainimage1.jpg" alt="main image">
+        <h1>price:$30</h1>
+   </div>
+   <div class="Bag">
+    <h1>Hoodie</h1>
+    <img src="mainimage2.jpg" alt="main image">
+    <h1>price:$40</h1>
+ </div>
+ <div class="Bag">
+    <h1>Hoodie</h1>
+    <img src="mainimage3.jpg" alt="main image">
+    <h1>price:$50</h1>
+ </div>
+ <div class="Bag">
+    <h1>Hoodie</h1>
+    <img src="mainimage4.jpg" alt="main image">
+    <h1>price:$60</h1>
+ </div>
+
+   </div>
+   <br>
+    <footer>
+        shop@RAJI.com
+    </footer>
+</body>
+</html>
